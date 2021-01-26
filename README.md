@@ -31,7 +31,6 @@ Android SDK minium 24
 
 
 ### 3.Thư viện và công nghệ
-android SDK minium 24 
 
 Google material 1.0.0 
 
