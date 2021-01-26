@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="warn" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="049b011a-f8dc-4bb6-ac76-e19e5534c0f2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3a_XL_API_30" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Wanker Bank" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Wanker Bank" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="valueResourceFile" />
+        <option value="Kotlin Class" />
+        <option value="resourceFile" />
+        <option value="layoutResourceFile" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1lYqVJdL9BuZy8srcU4rShl63UH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_3a_XL_API_30" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-12-20T14:39:27.198180Z" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Dependencies" />
+    <property name="project.structure.proportion" value="0.34602076" />
+    <property name="project.structure.side.proportion" value="0.5562914" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.-555684946">
+      <recent name="com.example.wankerbank" />
+    </key>
+    <key name="android.template.1668605004">
+      <recent name="com.example.wankerbank" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/anim" />
+    </key>
+    <key name="android.template.-1792484458">
+      <recent name="com.example.wankerbank" />
+    </key>
+    <key name="android.template.1746722865">
+      <recent name="com.example.wankerbank" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+    </key>
+    <key name="android.template.-1495642288">
+      <recent name="com.example.wankerbank" />
+    </key>
+    <key name="android.template.-1744330311">
+      <recent name="com.example.wankerbank" />
+    </key>
+    <key name="android.template.700174839">
+      <recent name="com.example.wankerbank" />
+    </key>
+    <key name="android.template.1174164947">
+      <recent name="com.example.wankerbank" />
+    </key>
+    <key name="android.template.-499945215">
+      <recent name="com.example.wankerbank" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Wanker_Bank.app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="Wanker_Bank.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <Java />
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="049b011a-f8dc-4bb6-ac76-e19e5534c0f2" name="Default Changelist" comment="" />
+      <created>1607784396803</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607784396803</updated>
+      <workItem from="1607784401652" duration="7135000" />
+      <workItem from="1607794883925" duration="104000" />
+      <workItem from="1607794990897" duration="170000" />
+      <workItem from="1607795173702" duration="593000" />
+      <workItem from="1607850481211" duration="5804000" />
+      <workItem from="1607862784746" duration="11031000" />
+      <workItem from="1607906765113" duration="17142000" />
+      <workItem from="1607959865782" duration="1590000" />
+      <workItem from="1607961647112" duration="2820000" />
+      <workItem from="1608021611247" duration="2414000" />
+      <workItem from="1608030496641" duration="6845000" />
+      <workItem from="1608047502238" duration="115000" />
+      <workItem from="1608047640779" duration="32000" />
+      <workItem from="1608047687326" duration="1574000" />
+      <workItem from="1608127813187" duration="4355000" />
+      <workItem from="1608136786006" duration="1576000" />
+      <workItem from="1608172897826" duration="1359000" />
+      <workItem from="1608200210096" duration="2966000" />
+      <workItem from="1608205051924" duration="3655000" />
+      <workItem from="1608211033727" duration="1326000" />
+      <workItem from="1608212591814" duration="20427000" />
+      <workItem from="1608291806934" duration="1632000" />
+      <workItem from="1608296403262" duration="3343000" />
+      <workItem from="1608343923853" duration="14574000" />
+      <workItem from="1608367845910" duration="6817000" />
+      <workItem from="1608432885533" duration="12052000" />
+      <workItem from="1608448741111" duration="4141000" />
+      <workItem from="1608617814279" duration="779000" />
+      <workItem from="1608632742353" duration="50000" />
+      <workItem from="1608632819930" duration="1575000" />
+      <workItem from="1608692846799" duration="43000" />
+      <workItem from="1608692925784" duration="5649000" />
+      <workItem from="1608704542607" duration="843000" />
+      <workItem from="1608740290331" duration="33000" />
+      <workItem from="1608740343131" duration="113000" />
+      <workItem from="1608779992179" duration="360000" />
+      <workItem from="1608791336578" duration="209000" />
+      <workItem from="1609395226783" duration="62000" />
+      <workItem from="1609395331112" duration="219000" />
+      <workItem from="1609396278323" duration="123000" />
+      <workItem from="1609658588234" duration="2622000" />
+      <workItem from="1609674047355" duration="727000" />
+      <workItem from="1609778914971" duration="446000" />
+      <workItem from="1611124750173" duration="1835000" />
+      <workItem from="1611134190630" duration="87000" />
+      <workItem from="1611205570658" duration="1286000" />
+      <workItem from="1611206897162" duration="2221000" />
+      <workItem from="1611209164147" duration="11024000" />
+      <workItem from="1611283452807" duration="8000" />
+      <workItem from="1611496339685" duration="1116000" />
+      <workItem from="1611542015397" duration="5598000" />
+      <workItem from="1611550325131" duration="546000" />
+      <workItem from="1611555554436" duration="17025000" />
+      <workItem from="1611626459858" duration="23244000" />
+      <workItem from="1611665721764" duration="6848000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

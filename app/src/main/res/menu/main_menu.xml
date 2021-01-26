@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/home_outline"
+                android:title="Home"/>
+        <item
+                android:id="@+id/nav_deposit"
+                android:icon="@drawable/deposit_outline"
+                android:title="Deposit"/>
+        <item
+                android:id="@+id/nav_transfer"
+                android:icon="@drawable/transfer_outline"
+                android:title="Transfer"/>
+        <item
+                android:id="@+id/nav_history"
+                android:icon="@drawable/history_outline"
+                android:title="History"/>
+    </group>
+
+
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                        android:id="@+id/nav_profile"
+                        android:icon="@drawable/profile_outline"
+                        android:title="Profile"/>
+                <item
+                        android:id="@+id/nav_logout"
+                        android:icon="@drawable/logout_outline"
+                        android:title="Logout"/>
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                    android:id="@+id/nav_helper"
+                    android:icon="@drawable/support_outline"
+                    android:title="Helper"/>
+            <item
+                    android:id="@+id/nav_rate"
+                    android:icon="@drawable/rate_outline"
+                    android:title="Rate"/>
+        </menu>
+    </item>
+</menu>
