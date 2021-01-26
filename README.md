@@ -8,7 +8,7 @@ Một số hình ảnh
 **Chức năng đăng nhập**
 </br>
 ![image](https://user-images.githubusercontent.com/58738862/105871340-c92d9500-602b-11eb-8044-f5301735403d.png =24x48) </br>
-<image src="https://user-images.githubusercontent.com/58738862/105871340-c92d9500-602b-11eb-8044-f5301735403d.png"/>
+<image src="https://user-images.githubusercontent.com/58738862/105871340-c92d9500-602b-11eb-8044-f5301735403d.png" width="200" height="400"/>
 </br>
 **Giao diện chính**
 </br>
