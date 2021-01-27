@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "68191525959",
+    "project_id": "wanker-bank",
+    "storage_bucket": "wanker-bank.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68191525959:android:5606b950ec80ee7574a562",
+        "android_client_info": {
+          "package_name": "com.example.wankerbank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68191525959-p4sc4b1ig0sbghukk61tjp5gvjr0tufc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0i2UzXSiqeUbjEbRLwylB7GYhGRD82WI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68191525959-p4sc4b1ig0sbghukk61tjp5gvjr0tufc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
