@@ -28,12 +28,12 @@
         "source": "/Users/vodoanminhhieuvn/IntelliJIDEAProjects/WankerBank2/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/vodoanminhhieuvn/IntelliJIDEAProjects/WankerBank2/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/Users/vodoanminhhieuvn/IntelliJIDEAProjects/WankerBank2/app/src/main/res/mipmap-hdpi/ic_launcher.png"
-    },
-    {
         "merged": "/Users/vodoanminhhieuvn/IntelliJIDEAProjects/WankerBank2/app/build/intermediates/res/merged/debug/font_antic_slab.ttf.flat",
         "source": "/Users/vodoanminhhieuvn/IntelliJIDEAProjects/WankerBank2/app/src/main/res/font/antic_slab.ttf"
+    },
+    {
+        "merged": "/Users/vodoanminhhieuvn/IntelliJIDEAProjects/WankerBank2/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/vodoanminhhieuvn/IntelliJIDEAProjects/WankerBank2/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
         "merged": "/Users/vodoanminhhieuvn/IntelliJIDEAProjects/WankerBank2/app/build/intermediates/res/merged/debug/anim_right_animation2.xml.flat",
@@ -84,6 +84,10 @@
         "source": "/Users/vodoanminhhieuvn/IntelliJIDEAProjects/WankerBank2/app/src/main/res/layout/activity_width_draw.xml"
     },
     {
+        "merged": "/Users/vodoanminhhieuvn/IntelliJIDEAProjects/WankerBank2/app/build/intermediates/res/merged/debug/drawable_icon_support.png.flat",
+        "source": "/Users/vodoanminhhieuvn/IntelliJIDEAProjects/WankerBank2/app/src/main/res/drawable/icon_support.png"
+    },
+    {
         "merged": "/Users/vodoanminhhieuvn/IntelliJIDEAProjects/WankerBank2/app/build/intermediates/res/merged/debug/drawable_transfer.xml.flat",
         "source": "/Users/vodoanminhhieuvn/IntelliJIDEAProjects/WankerBank2/app/src/main/res/drawable/transfer.xml"
     },
@@ -128,12 +132,12 @@
         "source": "/Users/vodoanminhhieuvn/IntelliJIDEAProjects/WankerBank2/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/Users/vodoanminhhieuvn/IntelliJIDEAProjects/WankerBank2/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/vodoanminhhieuvn/IntelliJIDEAProjects/WankerBank2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
-    },
-    {
         "merged": "/Users/vodoanminhhieuvn/IntelliJIDEAProjects/WankerBank2/app/build/intermediates/res/merged/debug/drawable_deposit_outline.xml.flat",
         "source": "/Users/vodoanminhhieuvn/IntelliJIDEAProjects/WankerBank2/app/src/main/res/drawable/deposit_outline.xml"
+    },
+    {
+        "merged": "/Users/vodoanminhhieuvn/IntelliJIDEAProjects/WankerBank2/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/vodoanminhhieuvn/IntelliJIDEAProjects/WankerBank2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
         "merged": "/Users/vodoanminhhieuvn/IntelliJIDEAProjects/WankerBank2/app/build/intermediates/res/merged/debug/layout_activity_dashboard.xml.flat",

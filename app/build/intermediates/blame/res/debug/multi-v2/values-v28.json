@@ -4,7 +4,7 @@
             "outputFile": "/Users/vodoanminhhieuvn/IntelliJIDEAProjects/WankerBank2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v28/values-v28.xml",
             "map": [
                 {
-                    "source": "/Users/vodoanminhhieuvn/.gradle/caches/transforms-2/files-2.1/db6b3cb3556c3a7381391db4d7ac82c7/appcompat-1.1.0/res/values-v28/values-v28.xml",
+                    "source": "/Users/vodoanminhhieuvn/.gradle/caches/transforms-2/files-2.1/9ce606eb726c0bbd39efe65d51428af3/appcompat-1.2.0/res/values-v28/values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",

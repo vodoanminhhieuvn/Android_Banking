@@ -24,6 +24,10 @@ class Helper : AppCompatActivity() {
         imageCall.setOnClickListener {
             makePhoneCall()
         }
+
+        Call_Text.setOnClickListener {
+            makePhoneCall()
+        }
     }
 
     private fun makePhoneCall() {
@@ -37,7 +41,9 @@ class Helper : AppCompatActivity() {
 
     override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {
         if(requestCode == REQUEST_CALL) {
-
+            if (grantResults.size  > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                makePhoneCall()
+            }
         }
     }
 }

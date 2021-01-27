@@ -3,18 +3,43 @@ package com.example.wankerbank
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.core.view.GravityCompat
+import com.google.android.gms.ads.AdListener
+import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.InterstitialAd
+import com.google.android.gms.ads.MobileAds
 import kotlinx.android.synthetic.main.activity_dashboard.*
 
 class Dashboard : AppCompatActivity() {
+
+    private val mAppUnitId: String by lazy {
+
+        "ca-app-pub-5353080189302180~9775963223"
+    }
+
+    private val mInterstitialAdUnitId: String by lazy {
+
+        "ca-app-pub-5353080189302180/2827411492"
+    }
+
+    private lateinit var  mInterstitialAd: InterstitialAd
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dashboard)
+
+        mInterstitialAd =  InterstitialAd(this)
+
+        initializeInterstitialAd(mAppUnitId)
+
+        loadInterstitialAd(mInterstitialAdUnitId)
+
+        runAdEvents()
 
         Balance_Text.setText(RequestApi.remainFund.toString())
 
@@ -61,6 +86,11 @@ class Dashboard : AppCompatActivity() {
                     val intent = Intent(this@Dashboard, Transfer::class.java)
                     startActivity(intent)
                 }
+
+                R.id.nav_helper -> {
+                    val intent = Intent(this@Dashboard, Helper::class.java)
+                    startActivity(intent)
+                }
             }
 
             drawer_layout.closeDrawer(GravityCompat.START)
@@ -68,18 +98,34 @@ class Dashboard : AppCompatActivity() {
         }
 
         Transfer_Btn.setOnClickListener {
-            val intent = Intent(this@Dashboard, Transfer::class.java)
-            startActivity(intent)
+
+            if (mInterstitialAd.isLoaded) {
+                mInterstitialAd.show()
+            } else {
+                Log.d("TAG", "The interstitial ad wasn't loaded yet.")
+                startActivity(Intent(this@Dashboard, Transfer::class.java))
+                finish()
+            }
         }
 
         Widthdraw_Btn.setOnClickListener{
-            val intent = Intent(this@Dashboard, WidthDraw::class.java)
-            startActivity(intent)
+            if (mInterstitialAd.isLoaded) {
+                mInterstitialAd.show()
+            } else {
+                Log.d("TAG", "The interstitial ad wasn't loaded yet.")
+                startActivity(Intent(this@Dashboard, WidthDraw::class.java))
+                finish()
+            }
         }
 
         Deposit_Btn.setOnClickListener {
-            val intent = Intent(this@Dashboard,Deposit::class.java )
-            startActivity(intent)
+            if (mInterstitialAd.isLoaded) {
+                mInterstitialAd.show()
+            } else {
+                Log.d("TAG", "The interstitial ad wasn't loaded yet.")
+                startActivity(Intent(this@Dashboard,Deposit::class.java ))
+                finish()
+            }
         }
 
         History_Btn.setOnClickListener {
@@ -87,6 +133,38 @@ class Dashboard : AppCompatActivity() {
             startActivity(intent)
         }
 
+
+
+    }
+
+    private fun initializeInterstitialAd(appUnitId: String) {
+
+        MobileAds.initialize(this, appUnitId)
+
+    }
+
+    private fun loadInterstitialAd(interstitialAdUnitId: String) {
+
+        mInterstitialAd.adUnitId = interstitialAdUnitId
+        mInterstitialAd.loadAd(AdRequest.Builder().build())
+    }
+
+    private fun runAdEvents() {
+
+        mInterstitialAd.adListener = object : AdListener() {
+
+            // If user clicks on the ad and then presses the back, s/he is directed to DetailActivity.
+            override fun onAdClicked() {
+                super.onAdOpened()
+                mInterstitialAd.adListener.onAdClosed()
+            }
+
+            // If user closes the ad, s/he is directed to DetailActivity.
+            override fun onAdClosed() {
+                startActivity(Intent(this@Dashboard, Transfer::class.java))
+                finish()
+            }
+        }
     }
 
     override fun onBackPressed() {
@@ -96,6 +174,8 @@ class Dashboard : AppCompatActivity() {
             super.onBackPressed()
         }
     }
+
+
 
 }
 

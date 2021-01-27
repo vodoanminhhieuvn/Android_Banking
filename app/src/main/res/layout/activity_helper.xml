@@ -6,10 +6,82 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".Helper">
+    <TextView
+            android:text="vodoanminhhieuapple@gmail.com"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView18"
+            android:fontFamily="@font/baloo"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="18sp" android:layout_marginEnd="48dp" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.304"/>
+    <TextView
+            android:text="EMAIL :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView19"
+            android:fontFamily="@font/anton"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="18sp" android:layout_marginEnd="360dp" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.303"/>
+    <TextView
+            android:text="Võ Đoàn Minh Hiếu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView12"
+            android:fontFamily="@font/baloo"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="18sp" android:layout_marginEnd="48dp" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.154"/>
+    <TextView
+            android:text="NAME :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView13"
+            android:fontFamily="@font/anton"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="18sp" android:layout_marginEnd="212dp" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.154"/>
+    <TextView
+            android:text="0838088590"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView16"
+            android:fontFamily="@font/baloo"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="18sp" android:layout_marginEnd="100dp" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.223"/>
+    <TextView
+            android:text="TEL:"
+            android:layout_width="47dp"
+            android:layout_height="29dp" android:id="@+id/textView17"
+            android:fontFamily="@font/anton"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="18sp" android:layout_marginEnd="212dp" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.222"/>
     <ImageView
             android:layout_width="50dp"
             android:layout_height="50dp" app:srcCompat="@drawable/ic_baseline" android:id="@+id/imageCall"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"/>
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.31"
+            app:layout_constraintVertical_bias="0.415"/>
+    <TextView
+            android:text="CALL ME"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/Call_Text"
+            android:fontFamily="@font/anton"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="24sp" android:layout_marginEnd="168dp" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.424"/>
+    <ImageView
+            android:layout_width="142dp"
+            android:layout_height="198dp" app:srcCompat="@drawable/icon_support" android:id="@+id/imageView"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintVertical_bias="0.0"/>
+    <TextView
+            android:text="CONTACT OUR SUPPORT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView9"
+            android:fontFamily="@font/anton"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="24sp" android:layout_marginEnd="48dp" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.054"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

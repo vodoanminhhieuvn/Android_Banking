@@ -4,16 +4,6 @@
             "outputFile": "/Users/vodoanminhhieuvn/IntelliJIDEAProjects/WankerBank2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/Users/vodoanminhhieuvn/.gradle/caches/transforms-2/files-2.1/db6b3cb3556c3a7381391db4d7ac82c7/appcompat-1.1.0/res/values-land/values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,125,196",
-                        "endColumns": "69,70,67",
-                        "endOffsets": "120,191,259"
-                    }
-                },
-                {
                     "source": "/Users/vodoanminhhieuvn/.gradle/caches/transforms-2/files-2.1/b4bb1ba00b37c73311baadc4ff8057f5/material-1.0.0/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2",
@@ -30,6 +20,16 @@
                         "endLines": "8",
                         "endColumns": "10",
                         "endOffsets": "431"
+                    }
+                },
+                {
+                    "source": "/Users/vodoanminhhieuvn/.gradle/caches/transforms-2/files-2.1/9ce606eb726c0bbd39efe65d51428af3/appcompat-1.2.0/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
                     }
                 }
             ]
